@@ -1,1 +1,6 @@
-
+flask
+firebase_admin
+flask_cors
+huggingface_hub
+google.generativeai
+email_validator
