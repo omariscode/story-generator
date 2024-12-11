@@ -13,7 +13,7 @@ app.config['SECRET_KEY'] = 'hhahaha'
 
 CORS(app)
 
-cred = credentials.Certificate("./story.json")
+cred = credentials.Certificate("<coloque_o_diretorio_do_json_baixado_no_firebase")
 firebase_admin.initialize_app(cred)
 
 db = firestore.client()
